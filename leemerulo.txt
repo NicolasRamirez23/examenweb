@@ -1,0 +1,17 @@
+Paso 1 Activa el ambiente
+
+Paso 2 clona el repositorio
+    $ git clone ejemplo "https://github.com/nicolasramirez23/examenweb.git"
+    
+    y te metes a la carpeta donde esta el manage.py, ejemplo:
+    $ cd ecomtuts
+
+Paso 3 instalas las cosas necesarias
+    $ pip install -r requerimientos.txt
+
+Paso 4 Aplicas la migracion
+    $ python manage.py migrate
+
+Paso 5 corre el server
+    $ python manage.py runserver
+
